@@ -1,4 +1,1 @@
-streamline
-to install streamline:
-1. go to Command Prompt and type this:
-   
+streamline 
