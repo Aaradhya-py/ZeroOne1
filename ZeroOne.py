@@ -14,8 +14,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-import streamlit as st
-
 st.set_page_config(
     page_title="ZeroOne",   # Title in browser tab
     page_icon="Favicom.png",    # Path to your favicon
