@@ -14,6 +14,16 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+import streamlit as st
+
+st.set_page_config(
+    page_title="ZeroOne",   # Title in browser tab
+    page_icon="Favicom.png",    # Path to your favicon
+    layout="wide"               # Optional: wide or centered layout
+)
+
+
+
 # Then replace st.title with this:
 st.markdown("<div class='big-heading'>ZeroOne</div>", unsafe_allow_html=True)
 def text_to_binary(message: str) -> str:
