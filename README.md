@@ -8,6 +8,5 @@ It took so much time but finally it is here.
 Make sure to share it and use it as much as you like. For Feedbacks: 
 Check my Instagram: Otaku_artist_aaradhya
 
-This is a Software where you can type in Binary and get text and vice-versa. input("{Happy Coding.}")
 Thank You!
 
