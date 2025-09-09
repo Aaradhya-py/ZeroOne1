@@ -20,6 +20,7 @@ st.set_page_config(
     layout="wide"              
 )
 
+st.image("Banner2.png")
 
 st.markdown("<div class='big-heading'>ZeroOne</div>", unsafe_allow_html=True)
 def text_to_binary(message: str) -> str:
@@ -47,3 +48,20 @@ if st.button("Convert"):
         result = text_to_binary(user_input)
         st.success(f"Binary: {result}")
 st.markdown("---")
+st.markdown(
+    """
+    <style>
+    .caption {
+       font-family: 'Consolas', 'Courier New', monospace;
+       text-align: left;
+       color: gray; 
+    }
+    
+    </style>
+    """,
+
+    unsafe_allow_html=True
+)
+
+st.markdown("<div class='caption'>-Aaradhya Rampuriya</div>", unsafe_allow_html=True)
+st.markdown("<div class='caption'>Developer</div>", unsafe_allow_html=True)
