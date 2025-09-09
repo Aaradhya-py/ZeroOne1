@@ -20,16 +20,6 @@ st.set_page_config(
     layout="wide"              
 )
 
-st.markdown(
-    """
-    <style>
-    .image{
-        image.align: centre;
-    }
-    """, 
-    unsafe_allow_html=True
-)
-st.markdown("<div class='image'>Banner3.png</div>", unsafe_allow_html=True)
 
 st.markdown("<div class='big-heading'>ZeroOne</div>", unsafe_allow_html=True)
 def text_to_binary(message: str) -> str:
