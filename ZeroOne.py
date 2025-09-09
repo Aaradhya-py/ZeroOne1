@@ -63,4 +63,4 @@ st.markdown(
 )
 
 st.markdown("<div class='caption'>-Aaradhya Rampuriya</div>", unsafe_allow_html=True)
-st.markdown("<div class='caption'>Developer</div>", unsafe_allow_html=True)
+st.markdown("<div class='caption'>    Developer</div>", unsafe_allow_html=True)
